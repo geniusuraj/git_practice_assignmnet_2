@@ -7,3 +7,9 @@ for(let i=1; i<=n; i++){
         factor++;
     }
 }
+
+if(factor==2){
+    console.log(n,"is Prime");
+}else{
+    console.log(n,"is Not Prime");
+}
